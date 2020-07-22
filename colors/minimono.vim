@@ -1,5 +1,10 @@
-highlight clear
+" This theme only comes in a dark variant and only specifies ANSI colors,
+" so let's help the user by setting these options automatically on load.
 set background=dark
+set notermguicolors
+
+" Clear any previous highlight settings, then bootstrap the new colors.
+highlight clear
 
 if exists("syntax_on")
   syntax reset
