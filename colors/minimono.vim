@@ -30,8 +30,8 @@ highlight Comment      ctermfg=8
 highlight ColorColumn  ctermfg=7    ctermbg=8
 highlight Folded       ctermfg=7    ctermbg=8
 highlight FoldColumn   ctermfg=7    ctermbg=8
-highlight Pmenu        ctermfg=15   ctermbg=8
-highlight PmenuSel     ctermfg=8    ctermbg=8
+highlight Pmenu        ctermfg=7    ctermbg=8
+highlight PmenuSel     ctermfg=15   ctermbg=8
 highlight SpellCap     ctermfg=7    ctermbg=8
 highlight StatusLine   ctermfg=15   ctermbg=0    cterm=NONE
 highlight StatusLineNC ctermfg=7    ctermbg=0    cterm=NONE
