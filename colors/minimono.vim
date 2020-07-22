@@ -36,7 +36,7 @@ highlight FoldColumn   ctermfg=7    ctermbg=8
 highlight Pmenu        ctermfg=7    ctermbg=8
 highlight PmenuSel     ctermfg=15   ctermbg=8
 highlight SpellCap     ctermfg=7    ctermbg=8
-highlight StatusLine   ctermfg=15   ctermbg=0    cterm=NONE
+highlight StatusLine   ctermfg=15   ctermbg=8    cterm=NONE
 highlight StatusLineNC ctermfg=7    ctermbg=0    cterm=NONE
 highlight VertSplit    ctermfg=0    ctermbg=NONE cterm=NONE
 highlight Visual       ctermfg=7    ctermbg=8    cterm=NONE
