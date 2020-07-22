@@ -3,6 +3,9 @@
 set background=dark
 set notermguicolors
 
+" Set a statusline format that is compatible with `tmux-minimono`.
+set statusline=%<\ %f\ %h%m%r%=%l:\ %-3.(%c%)
+
 " Clear any previous highlight settings, then bootstrap the new colors.
 highlight clear
 
