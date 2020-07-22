@@ -1,37 +1,18 @@
-# Dim
+# Vim Minimono
 
-**Dim** (/dɪm/; a contraction of **Default IMproved**) is a clone of Vim’s default colorscheme, with some improvements:
+This is a fork of the Vim colorscheme [Dim][1]. Like Dim, it Minimono is a
+16-color theme that relies on your terminal colors. However, it tries to go
+even further in dimming the default Vim colors, and in addition tries to be
+aesthetically compatible with the companion [Tmux colorscheme][2].
 
-* It only uses [ANSI colors], so you can assign colors in your terminal emulator yourself
-* Syntax highlighting is consistent on light and dark backgrounds
+Here is a screenshot of the Minimono colorschemes for Vim and Tmux together:
 
-[ANSI colors]: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+![screenshot](screenshot.png)
 
-## Comparison
+## Quickstart
 
-|                                                                           | `colorscheme default`                                                                              | `colorscheme dim`                                     |
-|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [wwdc16.terminal]                                                         | ![wwdc16 dark with Vim's default color scheme]![wwdc16 light with Vim's default color scheme]      | ![wwdc16 dark with Dim]![wwdc16 light with Dim]       |
-| [appsignal.terminal]                                                      | ![appsignal dark with Vim's default color scheme]![appsignal light with Vim's default color scheme]| ![appsignal dark with Dim]![appsignal light with Dim] |
-| Dimmed comments, line numbers, folds, color columns and completion menus. | ![Comments and line numbers in Vim's default color scheme]                                         | ![Comments and line numbers in the Dim color scheme]  |
-| Inverted selections                                                       | ![Selections in Vim's default color scheme]                                                        | ![Selections in the Dim color scheme]                 |
-| Clear diff coloring                                                       | ![Diff coloring in Vim's default color scheme]                                                     | ![Diff coloring in the Dim color scheme]              |
+This is a regular Vim plugin, mainly developed and tested under Neovim 0.5.0.
+To install it, just add `jabirali/vim-minimono` with your Vim plugin manager.
 
-[wwdc16.terminal]: https://github.com/jeffkreeftmeijer/wwdc16.terminal
-[wwdc16 dark with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-dark-default.png
-[wwdc16 dark with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-dark-default2.png
-[wwdc16 light with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-light-default.png
-[wwdc16 light with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/wwdc16-light-default2.png
-
-[appsignal.terminal]: https://github.com/jeffkreeftmeijer/appsignal.terminal
-[appsignal dark with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/appsignal-dark-default.png
-[appsignal dark with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/appsignal-dark-default2.png
-[appsignal light with Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/appsignal-light-default.png
-[appsignal light with Dim]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/appsignal-light-default2.png
-
-[Comments and line numbers in Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default.png
-[Comments and line numbers in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/numbers-default2.png
-[Diff coloring in Vim's default color scheme]: https://gist.githubusercontent.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/diff-default.png
-[Diff coloring in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/diff-default2.png
-[Selections in Vim's default color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/selection-default.png
-[Selections in the Dim color scheme]: https://gist.github.com/jeffkreeftmeijer/0cf01dadd59096853708cd8033b3469c/raw/selection-default2.png
+[1]: https://github.com/jeffkreeftmeijer/vim-dim
+[2]: https://github.com/jabirali/tmux-minimono
